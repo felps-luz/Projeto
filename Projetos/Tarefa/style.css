@@ -1,0 +1,42 @@
+h1{
+    font: 700 30px 'lucida',sans-serif ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 132);
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgba(216, 112, 147, 0.822);
+}
+button{
+    font: 500 15px 'lucida',sans-serif ; 
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+input{
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-bottom: 1px solid black;
+}
+span{
+    font: 500 15px 'lucida',sans-serif ; 
+    margin-right: 10px;
+    margin-bottom: 10px;   
+    
+}
+
+::placeholder{
+    color: rgb(78, 78, 78);
+}
